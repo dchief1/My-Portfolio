@@ -8,9 +8,9 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <div id="home" className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 pointer-events-none"
         style={{
           maskImage:
             "linear-gradient(to bottom, transparent, black 10%, black 70%, transparent)",
@@ -138,10 +138,13 @@ export const HeroSection = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+          <a
+            href="#projects"
+            className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
+          >
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
-          </button>
+          </a>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>

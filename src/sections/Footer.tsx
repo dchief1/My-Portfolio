@@ -3,19 +3,19 @@ import ArrowUpRIghtIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Github",
-    href: "#",
+    href: "https://github.com/dchief1",
   },
   {
     title: "Linkedin",
-    href: "#",
+    href: "https://www.linkedin.com/in/emmanuel-igwesi-7b07461b2/",
   },
   {
     title: "Twitter",
-    href: "#",
+    href: "https://x.com/realKelzz",
   },
   {
     title: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/kelz_chief/",
   },
 ];
 

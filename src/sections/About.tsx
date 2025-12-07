@@ -7,6 +7,8 @@ import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
+import DatabaseIcon from "@/assets/icons/database.svg";
+import AwsIcon from "@/assets/icons/aws.svg";
 import ReactIcon from "@/assets/icons/react.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import NodeIcon from "@/assets/icons/nodejs.svg";
@@ -40,10 +42,10 @@ const toolboxItems = [
     iconType: NodeIcon,
   },
   {
-    title: "HTML5",
-    iconType: HTMLIcon,
+    title: "Databases",
+    iconType: DatabaseIcon,
   },
-  { title: "CSS3", iconType: CssIcon },
+  { title: "AWS", iconType: AwsIcon },
   {
     title: "Next.js",
     iconType: NextJsIcon,
@@ -107,7 +109,7 @@ const services = [
 export const AboutSection = () => {
   const constraintRef = useRef(null);
   return (
-    <div className="py-20 lg:py-28">
+    <div id="about" className="py-20 lg:py-28 scroll-mt-20">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
