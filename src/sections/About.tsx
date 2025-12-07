@@ -1,6 +1,5 @@
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
-import StarIcon from "@/assets/icons/star.svg";
 import bookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
@@ -12,7 +11,6 @@ import NodeIcon from "@/assets/icons/nodejs.svg";
 import TsIcon from "@/assets/icons/typescript.svg";
 import NextJsIcon from "@/assets/icons/nextjs.svg";
 import GolangIcon from "@/assets/icons/golang.svg";
-import { TechIcon } from "@/components/TechIcon";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 
@@ -132,11 +130,15 @@ export const AboutSection = () => {
                 className=""
               />
 
-              <ToolboxItems items={toolboxItems} className="" />
+              <ToolboxItems
+                items={toolboxItems}
+                className=""
+                itemsWrapperClassName="animate-move-left [animation-duration:30s]"
+              />
               <ToolboxItems
                 items={toolboxItems}
                 className="mt-6"
-                itemsWrapperClassName="-translate-x-1/2"
+                itemsWrapperClassName="animate-move-right [animation-duration:30s]"
               />
             </Card>
           </div>
