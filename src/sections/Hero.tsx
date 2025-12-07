@@ -131,9 +131,9 @@ export const HeroSection = () => {
             Building Exceptional User Experience
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed quae nemo ullam
-            repudiandae illum voluptate eveniet exercitationem facilis iusto deleniti nobis
-            minus qui, aperiamname mollitia ad? Numquam, suscipit consequatur.
+            I&apos;m a fullstack engineer with 5 years of experience building fast, secure, and
+            reliable digital products from fintech systems and microservices to real-time
+            applications, delivering smooth user experiences and robust backends.
           </p>
         </div>
 

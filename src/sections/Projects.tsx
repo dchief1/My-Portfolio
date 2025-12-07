@@ -1,6 +1,7 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import crunchiesPage from "@/assets/images/crunchies.png";
+import herMoneyPage from "@/assets/images/hermoney.png";
+import reydeskPage from "@/assets/images/reydesk.png";
+import ingrydPage from "@/assets/images/ingryd.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -9,40 +10,52 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
+    company: "Peachblossom",
     year: "2022",
-    title: "Dark Saas Landing Page",
+    title: "Crunchies",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Cut Google Maps API cost by over 60% with a custom location solution." },
+      { title: "Improved payment flow by preventing duplicate charges." },
+      { title: "Added automatic recovery for failed or incomplete payments." },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://crunchiesonline.com/",
+    image: crunchiesPage,
   },
   {
     company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    year: "2025",
+    title: "Hermoney Fintech",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Built a stable bill-payment system with automatic failure handling." },
+      { title: "Encrypted sensitive data to improve platform security." },
+      { title: "Optimized backend APIs for faster performance." },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://www.hermoney-finance.com/",
+    image: herMoneyPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Netware Innovative Labs",
+    year: "2024",
+    title: "Reydesk",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Built a remote desktop app." },
+      { title: "Developed scalable microservices for smoother operations." },
+      { title: "Enabled real-time remote support for faster ticket resolution." },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://reydesk.com/",
+    image: reydeskPage,
+  },
+  {
+    company: "Peachblossom",
+    year: "2024",
+    title: "Ingryd Academy",
+    results: [
+      { title: "Improved course discovery to help students find content faster." },
+      { title: "Increased platform speed for a smoother learning experience." },
+      { title: "Enhanced dashboard design to boost student engagement." },
+    ],
+    link: "https://ingrydacademy.com/en",
+    image: ingrydPage,
   },
 ];
 
