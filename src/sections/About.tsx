@@ -200,7 +200,7 @@ export const AboutSection = () => {
                         index % 2 === 0 ? "bg-emerald-400" : "bg-sky-400"
                       }`}
                     ></div>
-                    <span className="text-gray-300 text-xs md:text-sm truncate">
+                    <span className="text-gray-300 text-base md:text-sm truncate">
                       {service.title}
                     </span>
                   </div>
