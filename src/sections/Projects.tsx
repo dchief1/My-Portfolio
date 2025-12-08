@@ -86,9 +86,10 @@ export const ProjectsSection = () => {
                     {project.results.map((result, resultIndex) => (
                       <li
                         key={resultIndex}
-                        className="flex gap-2 text-sm md:text-base text-white/50"
+                        className="flex items-start gap-2 text-sm md:text-base text-white/50"
                       >
-                        <CheckCircleIcon className="size-5 md:size-6" />
+                        {/* keep icon a fixed size and prevent it from shrinking when text wraps */}
+                        <CheckCircleIcon className="w-5 h-5 md:w-6 md:h-6 shrink-0" />
                         <span>{result.title}</span>
                       </li>
                     ))}
@@ -96,7 +97,7 @@ export const ProjectsSection = () => {
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
                       <span>Visit Live Site</span>
-                      <ArrowUpRightIcon className="size-4" />
+                      <ArrowUpRightIcon className="w-4 h-4 shrink-0" />
                     </button>
                   </a>
                 </div>
